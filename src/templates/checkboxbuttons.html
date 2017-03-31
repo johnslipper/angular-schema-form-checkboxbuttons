@@ -6,7 +6,7 @@
     <label class="control-label {{form.labelHtmlClass}}" ng-show="showTitle()">{{form.title}}</label>
   </div>
   <div class="btn-group">
-    <label class="btn {{ titleMapValues[$index] ? form.style.selected || 'btn-default' : form.style.unselected || 'btn-default'; }}"
+    <label tabindex="0" class="btn {{ titleMapValues[$index] ? form.style.selected || 'btn-default' : form.style.unselected || 'btn-default'; }}"
            ng-class="{ active: titleMapValues[$index] }"
            ng-repeat="item in form.titleMap">
       <input type="checkbox"

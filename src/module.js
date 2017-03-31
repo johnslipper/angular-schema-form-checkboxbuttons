@@ -1,4 +1,4 @@
-angular.module('checkboxbuttons', [
+angular.module('schemaFormcheckboxbuttons', [
   'schemaForm',
   'templates'
 ]).config(function(schemaFormDecoratorsProvider, sfBuilderProvider) {
