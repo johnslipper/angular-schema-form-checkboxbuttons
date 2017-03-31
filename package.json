@@ -1,0 +1,37 @@
+{
+  "name": "checkboxbuttons",
+  "version": "1.0.0",
+  "description": "checkboxbuttons add-on for Angular Schema Form.",
+  "author": "@johnslipper",
+  "main": "./dist/checkboxbuttons.js",
+  "license": "MIT",
+  "keywords": [
+    "angular-schema-form-add-on",
+    "angular-schema-form",
+    "angular-schema",
+    "schema-form",
+    "form",
+    "json",
+    "json-schema",
+    "schema",
+    "add-on",
+    "checkbox",
+    "buttons",
+    "checkboxbuttons"
+  ],
+  "dependencies": {
+    "angular-schema-form": ">=0.8.13",
+    "angular-schema-form-bootstrap": ">=0.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "^2.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-uglify": "^2.1.2",
+    "streamqueue": "^1.1.1"
+  }
+}
