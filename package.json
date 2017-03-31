@@ -1,6 +1,6 @@
 {
   "name": "angular-schema-form-checkboxbuttons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "checkboxbuttons add-on for Angular Schema Form.",
   "author": "@johnslipper",
   "main": "./dist/checkboxbuttons.js",
